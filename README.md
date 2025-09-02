@@ -16,3 +16,13 @@ Objectif : découvrir comment créer et utiliser des fonctions définies par l�
 Fichiers :
 - `mail_nps_analysis.sql` : script SQL contenant toutes les requêtes, incluant la création des UDFs (is_mail_be, mail_type, nps, transporter_brand, delivery_mode) et l’utilisation de fonctions fenêtres (OVER, PARTITION BY, ORDER BY).
 - `1-mail_campaigns.csv` et `1-nps_deliveries.csv` : datasets.
+
+## Partie 2 – User-defined Functions
+
+Objectif : découvrir comment créer et utiliser des fonctions définies par l’utilisateur (UDF) dans BigQuery afin de simplifier la logique métier, automatiser certaines classifications (ex. identifier si un mail est envoyé en Belgique, déterminer le type de campagne, calculer un score NPS), et rendre les requêtes plus lisibles et réutilisables.
+
+Fichiers :
+- `2-udf_basics.sql` : script SQL contenant toutes les requêtes, incluant la création des UDFs (is_mail_be, mail_type, nps, transporter_brand, delivery_mode) et l’utilisation de fonctions fenêtres (OVER, PARTITION BY, ORDER BY).
+- `2-sales.csv` : dataset.
+- 
+⚠️ Le dataset complet (~50 Mo) n’est pas versionné pour des raisons de taille. Cet échantillon (2 000 lignes) est fourni pour la démonstration, mais toutes les requêtes du script SQL sont applicables à l’intégralité du jeu de données.
