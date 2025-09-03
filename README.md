@@ -39,4 +39,4 @@ Objectif : calculer, pour chaque ligne de vente, des indicateurs “proportion d
 
 Fichiers :
 - `4-window_proportions.sql` — script SQL (BigQuery) contenant toutes les requêtes/vues.
-- `3-orders_window.csv` : dataset.
+- `4-orders_window.csv` : dataset.
