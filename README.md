@@ -30,6 +30,13 @@ Objectif : Illustrer l’utilisation des fonctions analytiques (window functions
 
 Fichiers :
 - `3-window_functions.sql` : script SQL contenant toutes les requêtes avec ROW_NUMBER(), RANK() et DENSE_RANK() pour analyser les commandes et ventes.
-- `3-dataset.orders_window.csv` : dataset.
+- `3-orders_window.csv` : dataset.
   
-⚠️ Le dataset complet (~50 Mo) n’est pas versionné pour des raisons de taille. Cet échantillon (2 000 lignes) est fourni pour la démonstration, mais toutes les requêtes du script SQL sont applicables à l’intégralité du jeu de données.
+
+## Partie 4 – Proportions & parts de CA avec fenêtres
+
+Objectif : calculer, pour chaque ligne de vente, des indicateurs “proportion du total” grâce aux window functions (COUNT/SUM OVER), sans tables intermédiaires inutiles.
+
+Fichiers :
+- `4-window_proportions.sql` — script SQL (BigQuery) contenant toutes les requêtes/vues.
+- `3-orders_window.csv` : dataset.
