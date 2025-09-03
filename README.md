@@ -23,6 +23,13 @@ Objectif : découvrir comment créer et utiliser des fonctions définies par l�
 
 Fichiers :
 - `2-udf_basics.sql` : script SQL contenant toutes les requêtes, incluant la création des UDFs (is_mail_be, mail_type, nps, transporter_brand, delivery_mode) et l’utilisation de fonctions fenêtres (OVER, PARTITION BY, ORDER BY).
-- `2-sales.csv` : dataset.
+
+## Partie 3 – Analyse des commandes avec Window Functions
+
+Objectif : Illustrer l’utilisation des fonctions analytiques (window functions) telles que ROW_NUMBER(), RANK() et DENSE_RANK().
+
+Fichiers :
+- `7-window_functions.sql` : script SQL contenant toutes les requêtes avec ROW_NUMBER(), RANK() et DENSE_RANK() pour analyser les commandes et ventes.
+- `3-dataset.orders_window.csv` : dataset.
   
 ⚠️ Le dataset complet (~50 Mo) n’est pas versionné pour des raisons de taille. Cet échantillon (2 000 lignes) est fourni pour la démonstration, mais toutes les requêtes du script SQL sont applicables à l’intégralité du jeu de données.
