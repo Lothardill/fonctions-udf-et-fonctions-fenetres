@@ -1,4 +1,4 @@
-1) Nombre de produits par commande
+-- 1) Nombre de produits par commande
 
 -- 1.1 Compter le nb de produits distincts par commande
 SELECT
@@ -36,7 +36,7 @@ FROM sales_orders_type
 ORDER BY
   date_date, orders_id;
 
-   2) Part d’un produit dans le CA de la commande
+-- 2) Part d’un produit dans le CA de la commande
 
 -- 2.1 CA total de la commande via fenêtre
 SELECT
@@ -80,7 +80,7 @@ FROM sales_orders_turnover
 ORDER BY
   date_date, orders_id;
 
-   3) Nb de catégories_1 distinctes par commande
+-- 3) Nb de catégories_1 distinctes par commande
 
 WITH orders_cat AS (
   SELECT
@@ -103,7 +103,7 @@ LEFT JOIN orders_cat AS o USING (orders_id)
 ORDER BY
   s.customers_id, s.orders_id, s.products_id;
 
-4) Décomposition Fenêtre = GROUP BY + JOIN
+-- 4) Décomposition Fenêtre = GROUP BY + JOIN
    (équivalents pédagogiques)
 
 
