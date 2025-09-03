@@ -40,3 +40,11 @@ Objectif : calculer, pour chaque ligne de vente, des indicateurs “proportion d
 Fichiers :
 - `4-window_proportions.sql` — script SQL (BigQuery) contenant toutes les requêtes/vues.
 - `4-orders_window.csv` : dataset.
+
+## Partie 5 – Répartition des coûts opérationnels (Value Distribution)
+
+Objectif : pratiquer l’utilisation des window functions et des jointures entre tables ayant des granularités différentes (produit vs commande).
+
+Fichiers :
+- `5-value_distribution_operational.sql` : script SQL contenant toutes les requêtes (window functions, value distribution et conservation tests).
+- `5-orders_window.csv` et `5-order_ship.csv` : datasets.
